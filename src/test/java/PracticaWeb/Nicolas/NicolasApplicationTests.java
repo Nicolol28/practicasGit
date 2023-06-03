@@ -1,4 +1,4 @@
-package OO2.PracticaWeb.Nicolas;
+package PracticaWeb.Nicolas;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

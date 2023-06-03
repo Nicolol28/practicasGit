@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión</title>
+  <link th:href="@{/css/styles2.css}" rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <div class="container">
+    <form action="#" th:action="@{helloworld2}" th:object="${cliente}" method="post">
+      <h1>Iniciar sesión</h1>
+      <input type="email" id="email" placeholder="Correo electrónico"  th:field="*{email}" required>
+      <input type="password" id="password" placeholder="Contraseña" th:field="*{contrasena}" required>
+      <input type="submit"/>
+    </form>
+  </div>
+
+</body>
+</html>
